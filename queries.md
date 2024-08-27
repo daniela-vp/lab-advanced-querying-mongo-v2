@@ -45,7 +45,7 @@ query: {category_code: { $type: "null" }}
 
 **7. Order all the companies by their IPO price in a descending order.**
 
-query: {"ipo.valuation_amount": -1}
+sort: {"ipo.valuation_amount": -1}
 
 <br>
 
